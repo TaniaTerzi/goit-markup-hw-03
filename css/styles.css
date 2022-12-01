@@ -1,0 +1,178 @@
+
+/* основний колір тексту #434455 */
+/* додатковий колір шрифту #2E2F42  */
+/* акцентний колір #4D5AE5 */
+/* білий #FFFFFF */
+/* backgraund #E5E5E5 */
+
+:root {
+    --primery-text-color: #434455;
+    --title-text-color: #2E2F42;
+    --accent-color: #4D5AE5;
+    --primery-white-color: #FFFFFF;
+}
+
+body {
+    background-color: var(--primery-white-color);
+    color: var(--primery-text-color);
+    font-family: 'Roboto', 'Raleway', 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.logo-accent {
+    color: var(--accent-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.logo {
+    color: var(--title-text-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;    
+    line-height: 1.33;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+} 
+
+ul {
+    list-style: none;
+}
+
+.link {
+    color: var(--title-text-color);
+}
+
+/* site-nav */
+
+.list, .link {
+    text-decoration: none;
+    }
+
+.site-nav {
+font-weight: 600;
+}
+
+.site-nav .link:hover, .site-nav .linkfocus {
+    color: var(--primery-text-color);
+}
+
+.auth-nav .link:hover, .auth-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.hero {
+    background-color: var(--title-text-color);
+}
+
+/* Button */
+
+.button {
+background: #F4F4FD;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.19;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: var(--accent-color);
+}
+
+.button:hover, button:focus {
+    cursor: pointer;
+    color: var(--primery-white-color);
+    background: var(--accent-color);
+    
+}
+
+.button-hero {
+    color: var(--primery-white-color);
+    background-color: var(--accent-color);
+}
+
+.button-hero:hover, .button-hero:focus {
+    cursor: pointer;
+}
+
+/* text body */
+
+.heading {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    color: var(--primery-white-color);
+}
+.second-heading {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+
+.third-heading {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;  
+    letter-spacing: 0.02em;
+
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-card {
+background-color: var(--primery-white-color);
+    
+}
+
+/* futer */
+
+.logo-futer {
+    color: var(--primery-white-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;    
+    line-height: 1.17;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+.logo-futer-accent {
+    color: var(--accent-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;    
+    line-height: 1.17;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.futer {
+    background-color: var(--title-text-color);
+}
+
+.futer-text {
+    color: var(--primery-white-color);
+}
