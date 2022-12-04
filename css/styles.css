@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-.item, .team-card {
-    display: block;
+img { 
+    display: block; max-width: 100%; height: auto;
 }
 
 :root {
