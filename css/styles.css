@@ -218,7 +218,7 @@ p {
     line-height: 1.1;
     letter-spacing: 0.02em;
     text-align: center;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .third-heading {
@@ -226,7 +226,7 @@ p {
     font-size: 20px;
     line-height: 1.2;  
     letter-spacing: 0.02em;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 /* advantages */
@@ -278,7 +278,7 @@ p {
 
 
 .team-card {
-background-color: var(--primery-white-color);
+    background-color: var(--primery-white-color);
     width: 264px;
     text-align: center;
 }
@@ -337,7 +337,7 @@ background-color: var(--primery-white-color);
 }
 
 .img-ourworks, .img-team {
-    padding-bottom: 32px;
+    margin-bottom: 32px;
 }
 
 /* futer */
